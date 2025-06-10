@@ -1,0 +1,37 @@
+/*I wrote all of my styles inline in my html file, chat helped with understanding how to use this*/
+body {
+  background-color: #eff0db;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.right-text {
+  text-align: right;
+}
+
+.red-text {
+  color: red;
+}
+
+.orange-text {
+  color: orange;
+}
+
+.hidden {
+  display: none;
+}
+
+.pics {
+  width: 250px;
+  height: auto;
+}
+
+.hidden-link {
+  display: none;
+}
+
+.text-font {
+  font-size: 16px
+}

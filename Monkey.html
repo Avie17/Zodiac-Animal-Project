@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>The Monkey</title>
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body style="background-color:#eff0db">
+
+        <h1>This is the Monkey</h1>
+<img class="pics" src="monkey1.jpg">
+
+<div></div>
+<h3>A zodiac animal cycles every 12 year, the monkey is the 9th animal in rotation</h3>
+<h2>To see more info below, hit the buttons!</h2>
+
+<button id="pers-button" onclick="revealInfo(list1)">
+    Personality traits
+</button>
+<img >
+<ul id="list1" type="text" class="font-text hidden"  readonly>
+    <li>A monkey should be more...</li>
+    <li>Clever, curious, playful, mischievous, adaptable</li>
+    <li>but can also be manipulative and unreliable.</li>
+</ul>
+<div></div>
+
+<button id="pers-button" onclick="revealInfo(list2)">
+    Which element are you?
+</button>
+<ul id="list2" type="text" class="font-text hidden"  readonly>
+    <li>These buttons should reveal what extra personality traits come with your corresponding element</li>
+    <li>if you recognize this image it shows which elements correspond to which year</li>
+    <img src="Monkey.png">>
+    <div></div>
+
+    <button onclick="revealInfo(water)">Water</button>
+    <ul id="water" class="hidden">
+        <li>more likely to be...</li>
+        <li>smart, quick-witted, fond of being in limelight, but naughty</li>
+    </ul>
+
+    <div></div>
+    <button onclick="revealInfo(wood)">Wood</button>
+    <ul id="wood" class="hidden">
+        <li>more likely to be</li>
+        <li>fond of helping others, strong sense of self-esteem, but also stubborn</li>
+    </ul>
+    <div></div>
+    <button onclick="revealInfo(fire)">Fire</button>
+    <ul id="fire" class="hidden">
+        <li>more likely to be...</li>
+        <li>Ambitious and adventurous, but can be annoying</li>
+    </ul>
+    <div></div>
+    <button onclick="revealInfo(metal)">Metal</button>
+    <ul id="metal" class="hidden">
+        <li>More likely to be...</li>
+        <li>confident, smart, but annoying and stubborn</li>
+    </ul>
+    <div></div>
+    <button onclick="revealInfo(earth)">Earth</button>
+    <ul id="earth" class="hidden">
+        <li>should be more...</li>
+        <li>frank, optimistic, fearless</li>
+    </ul>
+    <li></li>
+    <li></li>
+</ul>
+<div></div>
+
+<button id="pers-button" onclick="revealInfo(list3)">
+    Best Pairings
+</button>
+<ul id="list3" type="text" class="font-text hidden"  readonly>
+    <li>A monkey will get along with...</li>
+    <li>Rats, Dragons, or Dogs</li>
+    <li>A monkey will definently not get along with</li>
+    <li>Oxes or Tigers</li>
+</ul>
+
+    </body>
+
+    <script src="script.js" style="visibility:hidden;"></script>
+</html>
